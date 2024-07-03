@@ -1,0 +1,28 @@
+body,html{
+    height: 100%;
+    margin: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: beige;
+}
+
+
+ 
+
+.circle{
+
+    border-radius: 50%;
+    border: 20px solid tomato;
+    border-top: 20px solid #3498db;
+    height: 100px;
+    width: 100px;
+    animation: spin 2s linear infinite;
+    text-align: center;
+}
+
+@keyframes spin{
+   
+    100%{transform: rotate(360deg);}
+}
