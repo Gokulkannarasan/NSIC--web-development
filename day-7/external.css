@@ -1,0 +1,30 @@
+body,html{
+    height: 100px;
+    margin: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #430A5D;
+   
+}
+
+.container{
+    padding-top: 150px;
+}
+
+h1{
+    font-size: xxx-large;
+    color: #EEE4B1;
+}
+
+button{
+    background-color: #FF204E;
+    padding-right: 30px;
+    padding-left: 30px;
+    
+}
+a{
+    text-decoration: none;
+}
+
